@@ -31,6 +31,7 @@
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 
     gs.log('Hello World', 'Price Book');
+	var a = 1 + 2;
 
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
@@ -40,7 +41,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a38975af4f32c3007c195f388310c752</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>(VF) Recalculate Cost</sys_name>
         <sys_overrides/>
         <sys_package display_value="Price Book" source="x_vafit_price_book">56078b384ff1cf407c195f388310c763</sys_package>
@@ -49,7 +50,7 @@
         <sys_scope display_value="Price Book">56078b384ff1cf407c195f388310c763</sys_scope>
         <sys_update_name>sys_script_a38975af4f32c3007c195f388310c752</sys_update_name>
         <sys_updated_by>thomas.legowo.admin</sys_updated_by>
-        <sys_updated_on>2017-12-09 00:56:59</sys_updated_on>
+        <sys_updated_on>2017-12-09 01:02:09</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
