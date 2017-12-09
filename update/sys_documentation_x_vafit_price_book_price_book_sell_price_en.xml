@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="sell_price" label="Sell Price" language="en" table="x_vafit_price_book_price_book">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>sell_price</element>
+            <help/>
+            <hint/>
+            <label>Sell Price</label>
+            <language>en</language>
+            <name>x_vafit_price_book_price_book</name>
+            <plural>Sell Prices</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>thomas.legowo.admin</sys_created_by>
+            <sys_created_on>2017-10-12 00:33:21</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>65180b784ff1cf407c195f388310c7e3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Sell Price</sys_name>
+            <sys_package display_value="Price Book" source="x_vafit_price_book">56078b384ff1cf407c195f388310c763</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Price Book">56078b384ff1cf407c195f388310c763</sys_scope>
+            <sys_update_name>sys_documentation_x_vafit_price_book_price_book_sell_price_en</sys_update_name>
+            <sys_updated_by>thomas.legowo.admin</sys_updated_by>
+            <sys_updated_on>2017-10-12 00:33:21</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

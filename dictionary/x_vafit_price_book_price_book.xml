@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Price Book" max_length="40" name="x_vafit_price_book_price_book" type="collection">
+        <element label="Advisory Reviewer" max_length="32" name="advisory_reviewer" reference="sys_user" type="reference"/>
+        <element label="Cost Price" max_length="20" name="cost_price" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="4000" name="description" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Opportunity" max_length="32" name="opportunity" reference="sales_opportunity" type="reference"/>
+        <element label="Sell Margin" max_length="20" name="sell_margin" type="decimal"/>
+        <element label="Sell Price" max_length="20" name="sell_price" type="currency"/>
+        <element label="Tech Reviewer" max_length="32" name="tech_reviewer" reference="sys_user" type="reference"/>
+        <element label="Total Hours" max_length="15" name="total_hours" type="decimal"/>
+        <element label="Work Notes" max_length="4000" name="work_notes" type="journal"/>
+        <index name="index">
+            <element name="opportunity"/>
+        </index>
+        <index name="index2">
+            <element name="advisory_reviewer"/>
+        </index>
+        <index name="index3">
+            <element name="tech_reviewer"/>
+        </index>
+    </element>
+</database>
